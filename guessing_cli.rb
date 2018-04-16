@@ -11,7 +11,7 @@ def run_guessing_game
     elsif user_response == rand(1..6)
       puts "You guessed the correct number!"
     else
-      puts "The computer guessed #{rand(1..6)}"
+      puts "The computer guessed #{rand(1..6)}."
     end
   end 
 end
